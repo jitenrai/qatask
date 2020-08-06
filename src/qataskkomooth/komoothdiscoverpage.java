@@ -16,6 +16,7 @@ public class komoothdiscoverpage {
 
 	public WebDriver driver;
 	
+	//locators for discover page
 	By cookie = By.xpath("//*[@id=\"google_analytics_gdpr_portal\"]/div/div/div/div[2]/div/div[2]/button");
 	By komooth = By.xpath("//*[@id=\"pageMountNode\"]/div/div[1]/div/div/a");
 	By discover = By.xpath("//*[@id=\"pageMountNode\"]/div/div[1]/div/div/div[1]/ul/li[1]/a");
