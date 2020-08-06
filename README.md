@@ -20,7 +20,9 @@ To run individual tests, under src click on Komoothtestcase and then select any 
 
 *******
 
-In general, I spent more than expected time for the setup. I had issues with connecting my eclipse workspace to git. To be able to upload file to git repository, files we manually uploaded to the repository. 
+In general, I spent more than expected time for the setup. 
+
+I had issues connecting my eclipse workspace to git repository. I created git repository and then manully uploaded files. I made commits per test cases.
 
 It was my first time working on end to end front end project. It was amazing learning excercise. I do feel that, I should have used more of TestNg anotations for example @AfterTest and @BeforeTest. 
 
