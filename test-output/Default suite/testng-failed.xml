@@ -8,11 +8,6 @@
           <include name="discoverpage"/>
         </methods>
       </class> <!-- kommothtestcase.Komoothdiscovertestcase -->
-      <class name="kommothtestcase.Kommothtestcaseheader">
-        <methods>
-          <include name="homepage"/>
-        </methods>
-      </class> <!-- kommothtestcase.Kommothtestcaseheader -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

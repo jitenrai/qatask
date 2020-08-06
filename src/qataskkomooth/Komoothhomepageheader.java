@@ -46,8 +46,7 @@ public class Komoothhomepageheader {
 	
 	public void clickrouteplanner()
 	{
-		driver.manage().timeouts().implicitlyWait(150,TimeUnit.SECONDS) ;
-		driver.findElement(cookie).click();
+		
 		driver.manage().timeouts().implicitlyWait(100,TimeUnit.SECONDS) ;	
 		driver.findElement(routeplanner).click();
 		driver.manage().timeouts().implicitlyWait(100,TimeUnit.SECONDS) ;	
@@ -58,8 +57,6 @@ public class Komoothhomepageheader {
 	
 	public void clickfeatures()
 	{
-		driver.manage().timeouts().implicitlyWait(150,TimeUnit.SECONDS) ;
-		driver.findElement(cookie).click();
 		driver.manage().timeouts().implicitlyWait(100,TimeUnit.SECONDS) ;	
 		driver.findElement(features).click();
 		driver.manage().timeouts().implicitlyWait(100,TimeUnit.SECONDS) ;	
@@ -70,8 +67,6 @@ public class Komoothhomepageheader {
 	
 	public void clickpricing()
 	{
-		driver.manage().timeouts().implicitlyWait(150,TimeUnit.SECONDS) ;
-		driver.findElement(cookie).click();
 		driver.manage().timeouts().implicitlyWait(100,TimeUnit.SECONDS) ;	
 		driver.findElement(pricing).click();
 		driver.manage().timeouts().implicitlyWait(100,TimeUnit.SECONDS) ;	
