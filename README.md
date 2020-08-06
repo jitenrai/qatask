@@ -2,12 +2,17 @@
 
 
 This repository contains QA task from 7S. It contains code which checks exisitence of elements on website. It is an Selenium, Java, TestNg, Maven project.
-I have used Eclispse Version: 2020-06 (4.16.0), Build id: 20200615-1200, maven version maven, TestNg version 7.3.0 on OS Name	Microsoft Windows 10 Pro, version Version	10.0.18362 Build 18362 machine.
+
+Setup details:
+* Eclispse Version: 2020-06 (4.16.0), Build id: 20200615-1200
+* Maven version maven
+* TestNg version 7.3.0 
+* OS Name	Microsoft Windows 10 Pro, version Version	10.0.18362 Build 18362 machine.
 
 To be able to execute the task, one must have the simillar setup. How to download details can be found under 
-Eclipse - https://www.eclipse.org/
-TestNg - https://testng.org/doc/
-maven - https://maven.apache.org/
+* Eclipse - https://www.eclipse.org/
+* TestNg - https://testng.org/doc/
+* maven - https://maven.apache.org/
 
 Once the setup is completed, project can be exported. To run the tests, right click on qatask and then select run with TestNg. This will trigger all the tests.
 
@@ -17,7 +22,7 @@ To run individual tests, under src click on Komoothtestcase and then select any 
 
 In general, I spent more than expected time for the setup. I had issues with connecting my eclipse workspace to git. To be able to upload file to git repository, files we manually uploaded to the repository. 
 
-It was my first time working on end to end project. It was amazing learning excercise. I do feel that, I would have used more of TestNg anotations for example @AfterTest and @BeforeTest. 
+It was my first time working on end to end front end project. It was amazing learning excercise. I do feel that, I should have used more of TestNg anotations for example @AfterTest and @BeforeTest. 
 
 xpath is used to selecting elements.
 
