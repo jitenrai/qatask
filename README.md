@@ -1,15 +1,16 @@
 # qatask
 
 
-This repository contains QA task from 7S. It contains code which checks exisitence of elements on website. It is an Selenium, Java, TestNg, Maven project.
+
+This repository contains QA task from 7S. It contains code which checks existence of elements on website. It is an Selenium, Java, TestNg, Maven project.
 
 Setup details:
-* Eclispse Version: 2020-06 (4.16.0), Build id: 20200615-1200
+* Eclipse Version: 2020-06 (4.16.0), Build id: 20200615-1200
 * Maven version maven
-* TestNg version 7.3.0 
+* TestNg version 7.3.0
 * OS Name	Microsoft Windows 10 Pro, version Version	10.0.18362 Build 18362 machine.
 
-To be able to execute the task, one must have the simillar setup. How to download details can be found under 
+To be able to execute the task, one must have the similar setup. How to download details can be found under
 * Eclipse - https://www.eclipse.org/
 * TestNg - https://testng.org/doc/
 * maven - https://maven.apache.org/
@@ -20,21 +21,21 @@ To run individual tests, under src click on Komoothtestcase and then select any 
 
 *******
 
-In general, I spent more than expected time for the setup. 
+In general, I spent more than expected time for the setup.
 
-I had issues connecting my eclipse workspace to git repository. I created git repository and then manully uploaded files. I made commits per test cases.
+I had issues connecting my eclipse workspace to git repository. I created git repository and then manually uploaded files. I made commits per test cases.
 
-It was my first time working on end to end front end project. It was amazing learning excercise. I do feel that, I should have used more of TestNg anotations for example @AfterTest and @BeforeTest. 
+It was my first time working on end to end front end project. It was amazing learning exercise. I do feel that, I should have used more of TestNg anotations for example @AfterTest and @BeforeTest.
 
 xpath is used to selecting elements.
 
-Design pattern is page object model with lot of scope for improvements. I was not able to get PageFactory Struchure in this project. 
+Design pattern is page object model with lot of scope for improvements. I was not able to get PageFactory Structure in this project.
 
 Errors which I was not able to resolve during completion of this project are:
 
 When running tests : JavaScript error: resource://gre/modules/URIFixup.jsm, line 281: NS_ERROR_FAILURE: Should pass a non-null uri
 
-When triggering build via Jenkins 
+When triggering build via Jenkins
 
 Gestartet durch Benutzer admin
 Running as SYSTEM
@@ -46,4 +47,3 @@ Build step 'Maven Goals aufrufen' marked build as failure
 Finished: FAILURE
 
 *******
-
