@@ -7,17 +7,16 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
 
-import qataskkomooth.Komoothhomepageheader;
-import qataskkomooth.komoothdiscoverpage;
+import qataskkomooth.Komoothsignup;
 
 /**
  * @author jiten
  *
  */
-public class Komoothdiscovertestcase {
+public class Komoothsignuptestcase {
 	
 	@Test
-	public void discoverpage()
+	public void signup()
 	{
 	
 	// Initializing geckodriver for firefox	
@@ -31,18 +30,9 @@ public class Komoothdiscovertestcase {
 	driver.get("https://www.komoot.com/");
 		 
     	 
-	komoothdiscoverpage discoverpage = new komoothdiscoverpage(driver);
+	Komoothsignup signup = new Komoothsignup(driver);
 	
-	discoverpage.clickdiscoverpage();
-	discoverpage.hikingtrails();
-	discoverpage.bikeroutetrails();
-	discoverpage.mountianbikingtrails();
-	discoverpage.roadcyclingroutes();
-	discoverpage.runningtrailsroutes();
-	discoverpage.mountainhikeroutes();
-	
-	
-	
+	signup.clicksignup();
 	
 	// closing firefox
 
@@ -50,4 +40,5 @@ public class Komoothdiscovertestcase {
 
 
 }
+
 }

@@ -13,8 +13,6 @@ import org.testng.annotations.Test;
 
 import qataskkomooth.Komoothhomepageheader;
 
-
-
 /**
  * @author jiten
  *
