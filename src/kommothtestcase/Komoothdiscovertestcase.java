@@ -3,26 +3,21 @@
  */
 package kommothtestcase;
 
-import java.util.concurrent.TimeUnit;
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import qataskkomooth.Komoothhomepageheader;
-
-
+import qataskkomooth.komoothdiscoverpage;
 
 /**
  * @author jiten
  *
  */
-public class Kommothtestcaseheader {
+public class Komoothdiscovertestcase {
 	
 	@Test
-	public void homepage()
+	public void discoverpage()
 	{
 	
 	// Initializing geckodriver for firefox	
@@ -36,18 +31,23 @@ public class Kommothtestcaseheader {
 	driver.get("https://www.komoot.com/");
 		 
     	 
-	Komoothhomepageheader headerpage = new Komoothhomepageheader(driver);
+	komoothdiscoverpage discoverpage = new komoothdiscoverpage(driver);
 	
-	headerpage.clickdiscover();
-	headerpage.clickrouteplanner();
-	headerpage.clickfeatures();
-	headerpage.clickpricing();
+	//discoverpage.clickdiscoverpage();
+	discoverpage.hikingtrails();
+	discoverpage.bikeroutetrails();
+	discoverpage.mountianbikingtrails();
+	discoverpage.roadcyclingroutes();
+	discoverpage.runningtrailsroutes();
+	discoverpage.mountainhikeroutes();
+	
+	
+	
 	
 	// closing firefox
-	driver.quit(); 
-	
-	
-	}
-	
 
+	driver.quit(); 
+
+
+}
 }

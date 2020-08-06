@@ -14,8 +14,10 @@ import org.openqa.selenium.WebDriver;
  */
 public class Komoothhomepageheader {
 	
-WebDriver driver;
+    public WebDriver driver;
 	
+    
+    // header locators on komooth home page
 	By komooth = By.xpath("//*[@id=\"pageMountNode\"]/div/div[1]/div/div/a");
 	By discover = By.xpath("//*[@id=\"pageMountNode\"]/div/div[1]/div/div/div[1]/ul/li[1]/a");
 	By routeplanner = By.xpath("//*[@id=\"pageMountNode\"]/div/div[1]/div/div/div[1]/ul/li[2]/a");
