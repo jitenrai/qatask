@@ -1,0 +1,10 @@
+Error when building via jenkins
+
+Gestartet durch Benutzer admin
+Running as SYSTEM
+Baue in Arbeitsbereich C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins.jenkins\workspace\qatask
+[qatask] $ cmd.exe /C "mvn compile && exit %%ERRORLEVEL%%"
+Der Befehl "mvn" ist entweder falsch geschrieben oder
+konnte nicht gefunden werden.
+Build step 'Maven Goals aufrufen' marked build as failure
+Finished: FAILURE
