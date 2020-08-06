@@ -15,7 +15,8 @@ import org.openqa.selenium.WebDriver;
 public class komoothdiscoverpage {
 
 	public WebDriver driver;
-
+	
+	By cookie = By.xpath("//*[@id=\"google_analytics_gdpr_portal\"]/div/div/div/div[2]/div/div[2]/button");
 	By komooth = By.xpath("//*[@id=\"pageMountNode\"]/div/div[1]/div/div/a");
 	By discover = By.xpath("//*[@id=\"pageMountNode\"]/div/div[1]/div/div/div[1]/ul/li[1]/a");
 	By hiking = By.xpath("//*[@id=\"sports\"]/div/div/div/div[1]/div/div[2]");
@@ -33,7 +34,9 @@ public class komoothdiscoverpage {
 	}
 
 	
-	  public void clickdiscoverpage() {
+   public void clickdiscoverpage() {
+	  driver.manage().timeouts().implicitlyWait(150,TimeUnit.SECONDS) ;
+	  driver.findElement(cookie).click();
 	  driver.manage().timeouts().implicitlyWait(100,TimeUnit.SECONDS) ;
 	  driver.findElement(discover).click();
 	  driver.manage().timeouts().implicitlyWait(100,TimeUnit.SECONDS) ;
@@ -42,6 +45,8 @@ public class komoothdiscoverpage {
 	  
 	 
 	public void hikingtrails() {
+		driver.manage().timeouts().implicitlyWait(150,TimeUnit.SECONDS) ;
+		driver.findElement(cookie).click();
 		driver.manage().timeouts().implicitlyWait(150, TimeUnit.SECONDS);
 		driver.findElement(hiking).click();
 		driver.manage().timeouts().implicitlyWait(100, TimeUnit.SECONDS);
@@ -50,6 +55,8 @@ public class komoothdiscoverpage {
 	}
 
 	public void bikeroutetrails() {
+		driver.manage().timeouts().implicitlyWait(150,TimeUnit.SECONDS) ;
+	    driver.findElement(cookie).click();
 		driver.manage().timeouts().implicitlyWait(100, TimeUnit.SECONDS);
 		driver.findElement(biketrails).click();
 		driver.manage().timeouts().implicitlyWait(100, TimeUnit.SECONDS);
@@ -58,6 +65,9 @@ public class komoothdiscoverpage {
 	}
 
 	public void mountianbikingtrails() {
+		
+		driver.manage().timeouts().implicitlyWait(150,TimeUnit.SECONDS) ;
+	    driver.findElement(cookie).click();
 		driver.manage().timeouts().implicitlyWait(100, TimeUnit.SECONDS);
 		driver.findElement(mountainbike).click();
 		driver.manage().timeouts().implicitlyWait(100, TimeUnit.SECONDS);
@@ -66,6 +76,9 @@ public class komoothdiscoverpage {
 	}
 
 	public void roadcyclingroutes() {
+		
+		driver.manage().timeouts().implicitlyWait(150,TimeUnit.SECONDS) ;
+		driver.findElement(cookie).click();
 		driver.manage().timeouts().implicitlyWait(100, TimeUnit.SECONDS);
 		driver.findElement(roadroutes).click();
 		driver.manage().timeouts().implicitlyWait(100, TimeUnit.SECONDS);
@@ -74,6 +87,9 @@ public class komoothdiscoverpage {
 	}
 
 	public void runningtrailsroutes() {
+		
+		driver.manage().timeouts().implicitlyWait(150,TimeUnit.SECONDS) ;
+	    driver.findElement(cookie).click();
 		driver.manage().timeouts().implicitlyWait(100, TimeUnit.SECONDS);
 		driver.findElement(runningtrails).click();
 		driver.manage().timeouts().implicitlyWait(100, TimeUnit.SECONDS);
@@ -82,6 +98,9 @@ public class komoothdiscoverpage {
 	}
 
 	public void mountainhikeroutes() {
+		
+		driver.manage().timeouts().implicitlyWait(150,TimeUnit.SECONDS) ;
+		driver.findElement(cookie).click();
 		driver.manage().timeouts().implicitlyWait(100, TimeUnit.SECONDS);
 		driver.findElement(mountianhikes).click();
 		driver.manage().timeouts().implicitlyWait(100, TimeUnit.SECONDS);
