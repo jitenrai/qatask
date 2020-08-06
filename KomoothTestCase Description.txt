@@ -1,0 +1,32 @@
+Step by step description of test cases
+
+Kommothtestcaseheader 
+
+This test case covers header elements. Tests are designed to check for there existence. Elements which are covered are :
+Discover
+Routeplanner
+Features
+Pricing
+
+Komoothbodytestcase
+This test case covers 4 elements from the body of komoot. Tests are designed to check for there existence. Elemts which are covered are :
+Hiking
+Biketouring
+Mountainbiking
+Roadcycling
+
+Komoothfootertestcase
+This test case covers footer elements. Tests are designed to check for there exisitence. Elements which are covered are :
+For what we offer section - discover, routeplanner, features
+For B2B - partners, connect, embedroutes
+
+
+Komoothsignuptestcase
+This test case covers sign up. Tests are designed to click on signup/login button. Then navigate to login/signup page and enter text in email field.
+
+Komoothdiscovertestcase
+
+This test covers discover page. It checks for existence of elements in that page. Unfortunatelly the tests are not passing.
+
+               
+
