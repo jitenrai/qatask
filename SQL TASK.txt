@@ -1,0 +1,38 @@
+SQL TASKS
+
+1. Return Employee record with highest salary
+
+SELECT * from employee
+WHERE salary IN (SELECT MAX(salary) FROM employee);
+
+
+
+2. Return the highest salary in employee table
+
+SELECT MAX(salary) from employee;
+
+3. Return 2nd highest salary from employee table
+
+SELECT MAX(salary) As salary from employee
+where salary < (SELECT MAX(salary) from employee);
+
+
+4. Select range of employees based on id
+
+NOTE: considering upper limit for emp_id as 10001 and lower limit as 10008 
+
+
+SELECT * from employee where emp_id BETWEEN 10001 and 10008;
+
+5. Return an employee with highest salary and the employee's department name
+
+SELECT department.department_name, employee.emp_id, employee.first_name, employee.last_name, employee.gender, employee.position, employee.department_id, employee.dalary
+from department 
+RIGHT JOIN employee ON department.department_id = employee.department_id
+where employee.salary IN (SELECT MAX(salary) FROM employee);
+
+6. Return highest salary, employee_name, department_name for EACH department
+
+SELECT employee.MAX(salary), employee.first_name, employee.last_name, department.department_name
+FULL OUTER JOIN ON employee.deaprtment_id = department.department_id
+ORDER BY department.department_name;
